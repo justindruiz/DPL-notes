@@ -1,9 +1,27 @@
 git information
 
-git add
+git add tells git what files to add
 
-git commit
+git commit will commit files to the folder
+remember to add -m to leave a message
 
-git status
+git status will give the status of the repository
 
-git push
+git push will push files to the repository
+
+BRANCHES
+
+feature branches
+bug fixes branches
+
+branches allow you to take the site in different directions without negatively affecting the master branch. You can work on branches independently of one another. This allows you to not completely shut down your business while you are working on another version of your site.
+
+git checkout -b sample
+	-switch to a new branch named sample
+git branch
+	-shows branches
+	-asterisk shows which branch on
+git checkout master
+	-switches back to master branch
+git checkout master
+	-switches back to sample
