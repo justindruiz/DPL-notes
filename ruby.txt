@@ -1,0 +1,114 @@
+Devpoint Labs May 21
+
+People have been using program for years. Egyptians, abacus etc…
+Computers understand binary, 1 and 0s. Electrical connection turns the board on or off.
+A programming language is very similar to spoken language
+Computers are stupid they can’t do a thing without us
+You have to talk to the computer like it is the stupidest thing
+Think of the process that you go through in the morning. Try describing every single little detail of the process.
+Programming language helps to not have to be as explicit as before
+
+How do bugs get in software? People put them there. All software is broken. Not a single piece of software is flawless.
+High level languages make people lazy so they will do whatever is 'good enough’ to function.
+By putting the bugs in the software we are in a way providing ourselves with job security
+
+iphone apps are all built in Objective-C
+android apps are built with Java
+website html css
+fancy things java script
+API other backend language
+
+Programming Paradigms
+
+Procedural - top down
+Object Oriented - manipulating objects
+Functional - relies on functions
+Declarative - like SQL
+Others….
+
+What is Ruby?
+
+Ruby Ideals
+Blended Perl, Smalltalk, Eiffel, Ada, and Lisp
+balance Functional & Imperative
+Natural over simple
+Expressive and beautiful
+
+Benefits
+
+Developer happiness
+Reads like english
+Easy to learn
+Forgiving
+Simple
+Large helpful community
+
+**if the thing that you are doing is making you angry, you are doing it wrong
+
+Issues
+
+Super high level = slow(ish)		computer time not human time
+high memory footprint (getting a lot better with 2.1)
+Language as an art
+
+Check These Out
+
+google sketchup
+motorola test labs
+nasa simulations
+morpha robotics
+lucent 3g wireless
+level 3 communications
+sysadmin
+rig maker xv
+las vegas downtown casino table games
+league of legends scale and deployment
+twitter, hulu, github, groupon, living social, 90% of startups
+
+~ is the home directory shortcut in terminal
+irb is interactive ruby
+“ “ is a string
+a string is a data type
+the numbers are also a data type
+the data types are our building blocks to work with Ruby
+Numbers and Strings are what we use most in Ruby
+concatenation - taking two strings and putting them together into one string
+“string” * Number works but not Number * “string”
+2 is a fixnum
+2.5 is a float
+Fixnum / Fixnum = Fixnum
+Float / Float = Float
+Fixnum / Float = Float
+Float / Fixnum = Float
+“Justin Ruiz”.class will show that the string is a string
+
+Data Types
+String
+Fixnum
+Float
+
+method chaining “justin ruiz”.reverse.upcase
+
+name = “justin”
+
+variable assignment string
+
+in programming, read right to left
+
+Variable RULES
+all lowercase
+begin with a letter
+separate words with_
+
+Git Config
+
+git config —global user.name “justindruiz”
+git config —global user.email “justinruizwrestling@gmail.com”
+
+GIT
+
+changed files and pushed to master
+changed files and pushed to collaborator
+pulled files from collaborator
+created a new branch and added a message to it
+merge branch to master
