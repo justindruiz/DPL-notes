@@ -1,0 +1,40 @@
+Devpoint Labs May 22
+
+Programming is talking to the machine to tell it what to do because the machine is stupid.
+
+“hello, world”
+‘hello, world’
+
+‘you don\’t want to do that - add backslash so single quote works
+“you don’t want to do that”
+
+Use double quotes as opposed to single quotes
+
+“this” +  “ “  + “that”
+name = “Jeremy”
+
+“Hello, “ + name +  “. How are you?”
+“Hello, #{name}, How are you?"
+"string interpolation"
+
+'Hello, #{name}. How are you?'  -This doesn't work. Don't use single quotes if you want
+special characters to do something.
+
+"Hello\nJeremy" this will print Jeremy on a new line
+'Hello\nJeremy' this will print what is exactly in the quotes
+
+__________________________________________________________________________________________
+
+"Array" [] - iteration over an array. Class exercise, asking a person a number one by one.
+["Jeremy", "Will", "Ty", "Jason", "Nhi"]
+[] [] [] [] []  Storage Bins
+ 0  1  2  3  4
+ J     T
+
+storage = ["Jeremy", "Will", "Ty", "Jason", "Nhi"]
+
+puts storage[0]
+
+puts storage[0].class
+
+puts storage[0].reverse

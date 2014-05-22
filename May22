@@ -1,0 +1,3 @@
+ storage = [ "Jason", "Jeremy", "Ty", "Will", "Nhi" ]
+
+puts storage[0]

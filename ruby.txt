@@ -112,3 +112,193 @@ changed files and pushed to collaborator
 pulled files from collaborator
 created a new branch and added a message to it
 merge branch to master
+
+May 22
+
+Devpoint Labs May 22
+
+Programming is talking to the machine to tell it what to do because the machine is stupid.
+
+“hello, world”
+‘hello, world’
+
+‘you don\’t want to do that - add backslash so single quote works
+“you don’t want to do that”
+
+Use double quotes as opposed to single quotes
+
+“this” +  “ “  + “that”
+name = “Jeremy”
+
+“Hello, “ + name +  “. How are you?”
+“Hello, #{name}, How are you?"
+"string interpolation"
+
+'Hello, #{name}. How are you?'  -This doesn't work. Don't use single quotes if you want
+special characters to do something.
+
+"Hello\nJeremy" this will print Jeremy on a new line
+'Hello\nJeremy' this will print what is exactly in the quotes
+
+__________________________________________________________________________________________
+
+"Array" [] - iteration over an array. Class exercise, asking a person a number one by one.
+["Jeremy", "Will", "Ty", "Jason", "Nhi"]
+[] [] [] [] []  Storage Bins
+ 0  1  2  3  4
+ J     T
+
+storage = ["Jeremy", "Will", "Ty", "Jason", "Nhi"]
+
+puts storage[0]
+
+puts storage[0].class
+
+puts storage[0].reverse
+
+
+Programming is talking to the machine to tell it what to do because the machine is stupid.
+
+“hello, world”
+‘hello, world’
+
+‘you don\’t want to do that - add backslash so single quote works
+“you don’t want to do that”
+
+Use double quotes as opposed to single quotes
+
+“this” +  “ “  + “that”
+name = “Jeremy”
+
+“Hello, “ + name +  “. How are you?”
+“Hello, #{name}, How are you?”
+
+App Idea
+Have an app that will compile a list of names and put videos together of all those people. Wrestlers. Good for scouting.
+
+Would you give up a current job opportunity to work at your current job?
+
+
+storage = [ "Jason", "Jeremy", "Ty", "Will", "Nhi" ]
+
+puts storage[0]
+
+people = [ "Jason", "Jeremy", "Ty", "Will", "Nhi" ]
+
+people.each do |person|
+ puts person
+ puts person.reverse
+ puts person.upcase
+ puts people[3]
+end
+
+things = [1, 2, 3]
+
+things.each do |number|
+ puts number * number
+end
+
+You can put arrays in an array
+An Example:
+Products = [[Men's shirts], [Women's shirts], [kids shirts]]
+
+tic_tac_toe =
+[
+["", "", ""],
+["", "", ""],
+["", "", ""]
+]
+
+first few characters of a word + tab will auto finish words for you
+_______________________________________________________________
+Variables Variables Variables Variables
+_______________________________________________________________
+local_variable = "hello"
+
+@instance_variable = "Jeremy"
+
+@@class_variable = "Human"
+
+$global_variable = "DO NOT USE"
+
+concept of scoping for example iteration 0 first 1 second 2 third etc...
+
+These variables are ordered from top to bottom in the frequency with which they are used
+
+Array   0  1  2  3
+        [] [] [] []
+Hash  box1  2  3  4
+
+hash is a set of key value pairs
+key any valid ruby object
+value any valid ruby object
+
+
+storage = {"Box 1" => "Stuff", "Box2" => "More stuff"}
+
+puts storage["Box 1"]
+
+variable = {"Key" => "Value"} *This is how the hash is set up
+*each key needs to be unique
+indexes in an array it's 0 based, in a hash it's key based
+
+storage = {"Jeremy" => "Stuff", "Ty" => "More stuff", "Will" =>
+["box", "of", "stuff"]}
+
+storage.each_pair do |key, value|
+
+puts "The key is #{key} and the value is #{value}"
+
+end
+
+************apidock.com/ruby *************REALLY IMPORTANT!!!!!!!
+_______________________________________________________________
+SYMBOLS = Datatype
+__________________________________________________________
+
+:name
+
+You see symbols a lot in hashes
+
+me = {:name => "Jeremy", :age => 32, :height => "tall",
+:weight => "fat at heart"}
+
+puts me[:name]
+
+me[:sex] (get a value)
+me[:sex] = "Yes, please" (set a value)
+
+{'food' => 'taco'}
+{:food => "taco"}  \___ Use these two
+{food: 'taco'}     /===
+
+{'data-url' => 'http://www.google.com'}
+{:data-url => 'http://www.google.com'} in this case not valid
+
+When do you use an array versus hash
+
+array for generic collections
+hash is for a more specific collection
+
+dogs = [
+  {name: 'soldier', breed: 'mutt', age: 2},
+  {name: 'sam', breed: 'bassett', age: 8}
+]
+
+person = {
+  name: 'jeremy',
+  friends: ['nhi', 'ty'],
+  enemies: ['bum across the street', 'his friend']
+}
+
+_______________________________________________________________
+Time              Another Data Type
+_______________________________________________________________
+
+Time.now  needs to be capitalized
+Time.now.year
+Time.now.month
+Time.now.day
+Time.now.hour
+Time.now.min
+Time.now.sec
